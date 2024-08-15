@@ -32,12 +32,12 @@ const HeroSection = () => {
       {/* Hero Content */}
       <div className="relative z-20 flex flex-col items-center text-center md:flex-row md:items-start w-full max-w-6xl">
         {/* Text Section */}
-        <div className="text-center md:text-center mx-auto">
-          <h1 className="text-3xl md:text-5xl nn:ml-20 mm:text-8xl mm:max-w-7xl font-bold text-gray-800 max-w-3xl leading-tight ll:text-5xl ll:ml-16">
+        <div className="text-center  md:text-center mx-auto">
+          <h1 className="text-3xl md:text-5xl nn:ml-20 mm:text-8xl mm:max-w-7xl font-bold text-gray-800 max-w-3xl leading-tight ll:text-5xl ll:ml-16 ll:min-w-fit">
             Creators Grow Their
             <span className="text-blue-600">YouTube</span> Channel with ytRank
           </h1>
-          <p className="text-base text-center mm:text-4xl mm:min-w-full md:text-xl text-gray-600 mt-4 max-w-xl md:ml-20 ll:text-3xl">
+          <p className=" text-base ll:pt-5 ll:text-2xl ll:max-w-screen-md text-wrap">
             Optimize your content, outsmart the competition, and accelerate your
             growth with AI-powered tools.
           </p>
